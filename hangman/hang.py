@@ -1,5 +1,4 @@
 """Created by Caleb Sigmon July 4, 2022"""
-"""TEST"""
 
 from random import randint
 
