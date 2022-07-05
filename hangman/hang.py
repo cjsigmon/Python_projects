@@ -1,3 +1,5 @@
+"""Created by Caleb Sigmon July 4, 2022"""
+
 from random import randint
 
 long = ["Aplomb","Obstreperous", "Ennui",
