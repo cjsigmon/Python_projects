@@ -1,6 +1,6 @@
 """A Choose Your Own Adventure Game."""
 
-__author__ = "730396796"
+__author__ = "Caleb Sigmon"
 
 player: str
 points: int = 0
