@@ -16,12 +16,8 @@ with open(following_path, 'r') as j:
 # create an empty list to hold all accounts user is following that do not follow back
 no_follow_back = []
 
-print(following)
-     
-for key in followers["relationships_followers"]:
-    if not following["relationships_following"].has_key(key):
-        no_follow_back.append(key)
-
-print(no_follow_back)
+# print(no_follow_back)
 
 
+for list_item in following["relationships_following"]:
+    print(list_item['string_list_data'][0])
